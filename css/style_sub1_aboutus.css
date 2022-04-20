@@ -133,6 +133,7 @@ font-style: italic;
 .c4_contents ul{
    margin-left: 180px ;
 }
+
 .c4_contents li{
    float: left;
    background-color: #967032;
@@ -162,15 +163,15 @@ font-style: italic;
    top: 62%;  
 }
 
-.local{
+.c4_contents .local{
    background: url(../images/sub01_c4_local_img.png) center 50px no-repeat #967032;
 }
 
-.bar{
+.c4_contents  .bar{
    background: url(../images/sub01_c4_bar_img.png) center 40px no-repeat #967032;
 }
 
-.chef{
+.c4_contents  .chef{
    background: url(../images/sub01_c4_chef_img.png) center 30px no-repeat #967032;
 }
 
