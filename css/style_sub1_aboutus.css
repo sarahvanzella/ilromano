@@ -23,36 +23,55 @@ body{
 #header{
    width: 1320px;
    margin: auto;
-   height: 80px;
+   height: 100px;
    position: relative;
 }
 
-.nav img{
+
+.nav .mainlogo{
    position: absolute;
-   left: 20px;
-   top: 20px;
+   left: 100px;
+   top: 25px;
+   margin-left: -27.5px;
 }
 
 .menu_bar{
    float: left;
-   margin: 35px 100px 0 130px;
+   margin: 40px 0px 0 175px;
 }
 
 .menu_bar li{
    float: left;
    display: block;
-   
+   margin-right: 55px;
+ 
 }
 
 .menu_bar li a{
-font-size: 20px;
-color: #e4cb75;
-padding:0 40px ;
-font-weight: bold;
+   font-size: 20px;
+   color: #e4cb75;
+   font-weight: bold;
+   }
+
+   
+
+.menu_bar li .membership_btn{
+  background-color: rgba(219, 188, 94, 0.2);
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 8px 10px;
+  color: #f4e8bf;
 }
+
 
 .menu_bar li a:hover{
    text-shadow: 2px 2px 2px rgba(228, 203, 117, 0.9);
+   color: #fff;
+}
+
+
+.menu_bar li .membership_btn:hover{
+   background-color: rgba(219, 188, 94, 0.5);
    color: #fff;
 }
 
@@ -121,7 +140,7 @@ font-style: italic;
 #c4_intro{
    width: 1320px;
    margin: 50px auto;
-    height: 862px;
+   height: 862px;
 }
 
 #c4_wrap{
@@ -226,8 +245,9 @@ font-style: italic;
 
 .c6_steak img{
    float: right;
-   margin-right: -100px;
-} 
+   
+   margin-right: 70px;
+}
 .c6_steak p{
    color: #ebddca;
    font-size: 18px;
@@ -251,14 +271,14 @@ font-style: italic;
    float: left;
    height: 717px;
    width: 478px ;
-   margin-top: 100px;
+   margin: 100px 0 0 100px;
 }
 
 
 .c7_gallery{
    float: right;
    width: 620px;
-   margin-top: 100px;
+   margin: 100px 50px 0 0;
    height: 800px;
    box-sizing: border-box;
    
@@ -286,9 +306,6 @@ font-style: italic;
    transition: all 1s;
 }
 
-/*footer*/
-
-
 #footer{
    background-color: #8a948a;
    height: 300px;
@@ -300,14 +317,14 @@ font-style: italic;
 
 .footer_inner{
    width: 1320px;
-   margin: auto;
+   margin: 100px auto;
    height: 300px;
    color: #fff;
    }
 
 .footer_left{
    float: left;
-   padding-top: 20px;
+   padding: 20px 0 0 50px;
    }
 
 .footer_left h4{
@@ -323,7 +340,8 @@ font-style: italic;
 }
 .footer_right{
    float: right;
-   padding-top: 40px;
+   padding: 40px 50px 0 0;
+   text-align: right;
 }
 
 .footer_right h3{
