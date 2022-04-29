@@ -104,6 +104,13 @@ body{
 font-style: italic;
 }
 
+/*c2_비디오*/
+
+
+#c2_quote video{
+   width: 100%;
+
+}
 
 /*컨텐츠3_Drinks*/
 
